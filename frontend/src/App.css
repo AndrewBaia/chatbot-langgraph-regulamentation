@@ -1,0 +1,160 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* Estilos personalizados para o tema */
+.p-card {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+}
+
+.p-menubar {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.p-menubar .p-menuitem-link {
+  color: white !important;
+  border-radius: 6px;
+  margin: 0 4px;
+  transition: all 0.3s ease;
+}
+
+.p-menubar .p-menuitem-link:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.p-button {
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.p-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.p-inputtext {
+  border-radius: 8px;
+  border: 2px solid #e1e5e9;
+  transition: all 0.3s ease;
+}
+
+.p-inputtext:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.p-chip {
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.p-chip:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.p-tag {
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.p-progressbar {
+  border-radius: 10px;
+  height: 8px;
+}
+
+.p-progressbar .p-progressbar-value {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border-radius: 10px;
+}
+
+.p-message {
+  border-radius: 8px;
+  border: none;
+}
+
+.p-panel .p-panel-header {
+  background: linear-gradient(90deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 8px 8px 0 0;
+  font-weight: 600;
+}
+
+.p-scrollpanel .p-scrollpanel-content {
+  padding: 1rem;
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.p-card {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .p-menubar .p-menubar-start {
+    font-size: 0.9rem;
+  }
+  
+  .p-chip {
+    font-size: 0.8rem;
+    margin: 2px;
+  }
+}
+
+/* Estilos para links */
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  transform: translateX(2px);
+}
+
+/* Estilos para o texto da análise */
+.line-height-3 {
+  line-height: 1.8;
+}
+
+/* Estilos para badges e tags */
+.p-badge {
+  border-radius: 50%;
+}
+
+/* Estilos para tooltips */
+.p-tooltip .p-tooltip-text {
+  border-radius: 6px;
+  font-size: 0.875rem;
+}
+
+/* Estilos para o toast */
+.p-toast .p-toast-message {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
