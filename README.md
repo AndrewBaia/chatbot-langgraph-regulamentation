@@ -213,3 +213,6 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 ---
 
 **⚠️ Legal Disclaimer**: This system is a support tool and does not replace consultation with official legislation. Always consult primary sources for specific questions.
+
+<img width="1489" height="1030" alt="image" src="https://github.com/user-attachments/assets/f6fa8013-5064-4910-9c3e-d7554c855356" />
+
